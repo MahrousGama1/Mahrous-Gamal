@@ -1,0 +1,72 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+ 
+:root {
+    --gradient: linear-gradient(43.5deg, #ff0 -9.3%, #fb7c00 23.22%, #e73b50 46.1%, #d430d4 84.13%);
+    --gradient-double: linear-gradient(43.5deg, #ff0 3%, orange 12%, #f14444 23%, #d53567 27%, #d430d4 47%, #d430d4 53%, #d53567 72%, #f14444 77%, orange 88%, #ff0 97%);
+    --gradient-hero: linear-gradient(90deg, #e73b50, #d430d4);
+}
+span {
+    padding: 20px;
+    color: white;
+    background: linear-gradient(to right, #e73b50, #d430d4);
+    transition: all 0.3s ease;
+    margin: 40px 40;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+}
+a {
+    color: white;
+    transition: all 0.5s ease;
+
+    transition: all 256ms ease 0s;
+}
+
+span:hover {
+    background: none;
+    font-weight: 40px;
+}
+
+span:hover a {
+    color: #d430d4;
+    font-size: 50px;
+} */
+
+
+:root {
+    --gradient-insta: linear-gradient(90deg, rgb(255, 245, 0) 3%, rgb(255, 165, 0) 12%, rgb(241, 68, 68) 23%, rgb(213, 53, 103) 27%, rgb(154, 16, 154) 47%, rgb(154, 16, 154) 53%, rgb(213, 53, 103) 72%, rgb(241, 68, 68) 77%, rgb(255, 165, 0) 88%, rgb(255, 255, 0) 97%) ;
+    --gradient: linear-gradient(43.5deg,#ff0 -9.3%,#fb7c00 23.22%,#e73b50 46.1%,#d430d4 84.13%);
+    --gradient-double: linear-gradient(43.5deg,#ff0 3%,orange 12%,#f14444 23%,#d53567 27%,#d430d4 47%,#d430d4 53%,#d53567 72%,#f14444 77%,orange 88%,#ff0 97%);
+    --gradient-hero: linear-gradient(90deg,#e73b50,#d430d4);
+}
+  h1,a{
+    font-size: 48px;
+    background: linear-gradient(90deg, rgb(255, 245, 0) 3%, rgb(255, 165, 0) 12%, rgb(241, 68, 68) 23%, rgb(213, 53, 103) 27%, rgb(154, 16, 154) 47%, rgb(154, 16, 154) 53%, rgb(213, 53, 103) 72%, rgb(241, 68, 68) 77%, rgb(255, 165, 0) 88%, rgb(255, 255, 0) 97%) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .basic {
+    width: 200px;
+    height: 200px;
+    background: rgba(255,255,255,0.4);
+    position: relative;
+  }
+  .blur {
+    position: absolute;
+    bottom: 25px;
+    right: 162px;
+    width: 200px;
+    height: 200px;
+    background: rgba(255,255,255,);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 5px solid rgba(178, 25, 25, 0.2);
+  }
+
